@@ -11,6 +11,7 @@ public class ScoreManager : MonoBehaviour
     
     
     //references
+    [SerializeField] private Camera myCam;
     [SerializeField]
     private Text m_scoreText;
     
